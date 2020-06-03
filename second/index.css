@@ -3,62 +3,75 @@ body {
     margin: 0;
     padding: 25px;
 }
-.container-one {
+.Box1 {
     width: 100%;
     border: 5px solid black;
-    box-sizing: border-box;
     padding: 10px;
-}
-
-.box1 {
-    background-color: blueviolet;
-    height: 100px;
-    width: 40px;
-    display: inline-block;
-    margin: 20 0px;
-}
-.box2 {
-    background-color: green;
-    width: 350px;
-    height: 150px;
-    display: inline-block;
-    margin: 0 60px;
-    
-}
-.circle {
-    background-color: lightblue;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    margin: 0 400px;
-    display: inline-block;
-}
-.container-two {
-    width: 100%;
-    border: 5px dotted black;
-    padding: 50px;
-    margin-top: 30px;
-    box-sizing: border-box;
-}
-.bigbox {
-    background-color: lightgoldenrodyellow;
-    width: 100%;
-    margin: 0 auto;
-    height: 100px;
-    box-shadow: black 10px 10px 10px;
-}
-.container-three {
-    width: 50%;
-    border: 1px solid gray;
-    background-color: white;
-    padding: 100px;
     box-sizing: border-box ;
-    margin: 25px auto; 
   }
   
-  .container-three h1 {
+  .square1 {
+    height: 35vh;
+    width: 70px;
+    background-color: blueviolet;
+    display: inline-block;
+  }
+  
+  .square2 {
+    height: 300px;
+    width: 700px;
+    display: inline-block;
+    background-color: green;
+    margin: 0 50px;
+  }
+  
+  .circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-top: auto;
+  }
+  
+  .Box2 {
+    width: 100%;
+    border: 10px dotted black;
+    padding: 50px;
+    box-sizing: border-box ;
+    margin-top: 25px;
+  }
+  
+  .square3 {
+    width: 100%;
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+    box-shadow: black 10px 10px 10px
+  }
+  
+  .Box3 {
+    width: 40%;
+    border: 1px solid lightgray;
+    background-color: white;
+    padding: 100px;
+    box-shadow: lightgrey 5px 5px 10px;
+    margin: 30px auto;
+  }
+  
+  h1 {
     width: 100%;
     text-align: center;
     color: navy;
     letter-spacing: 10px;
+    font-size: 30px;
+    text-shadow: navy 1px 1px;
+  }
+  h2 {
+      width: 100%;
+      text-align: center;
+      color: navy;
+      letter-spacing: 10px;
+      font-size: 30px;
+      text-shadow: navy 1px 1px;
   }
